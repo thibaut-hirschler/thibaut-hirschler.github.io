@@ -13,17 +13,17 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
 **Some info about me:**
 * I teach in the Mechanical Engineering department of <a href='https://www.utbm.fr/'>Université de Technologie de Belfort-Montbéliard</a>, a french technical university located in the North-East of France. 
-* I do my research in the <a href='https://icb.u-bourgogne.fr/en/home-page/homepage/'>Laboratoire Interdisciplinaire Carnot de Bourgogne</a>, a CNRS Mixed Research Unit. I am part of a research team doing mechanics with a focus on mechanical design.
+* I do my research at the <a href='https://icb.u-bourgogne.fr/en/home-page/homepage/'>Laboratoire Interdisciplinaire Carnot de Bourgogne</a>, a CNRS Mixed Research Unit. I am part of a research team doing mechanics with a focus on mechanical design.
 * My scientific activities are devoted to the construction of efficient numerical methods and models for designing innovative structures. 
-  I do (*simple*) math and I code (*when possible*). I still think about the physics time to time 😉.
+  I do (*simple*) math and I code (*when possible*). I still think about the underlying physics time to time 😉.
 
 
 This webpage gathers the main contents related to my research and eventually my teaching. I maintain this page mainly for me, but you might find interesting stuff here and there. 
