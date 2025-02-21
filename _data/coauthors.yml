@@ -1,34 +1,39 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"bouclier":
+  - firstname: ["Robin", "R."]
+    url: https://www.math.univ-toulouse.fr/~rbouclie/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"elguedj":
+  - firstname: ["Thomas", "T."]
+    url: https://lamcos.insa-lyon.fr/fiche_personnelle.php?p=75&L=1&Numpers=280
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"morlier":
+  - firstname: ["Joseph", "J."]
+    url: https://ica.cnrs.fr/author/jmorlier/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"buffa":
+  - firstname: ["Annalisa", "A."]
+    url: https://www.epfl.ch/labs/mns/prof-annalisa-buffa/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"antolin":
+  - firstname: ["Pablo", "P."]
+    url: https://people.epfl.ch/pablo.antolin
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"duval":
+  - firstname: ["Arnaud", "A."]
+    url: https://lamcos.insa-lyon.fr/fiche_personnelle.php?p=33&Numpers=824&L=1
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"demoly":
+  - firstname: ["Frederic", "F."]
+    url: https://scholar.google.com.sg/citations?user=RWub1eUAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"roth":
+  - firstname: ["Sebastien", "S."]
+    url: https://scholar.google.at/citations?user=l3JRLnQAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"lebaal":
+  - firstname: ["Nadhir", "N."]
+    url: https://scholar.google.at/citations?hl=en&user=KUS2PXwAAAAJ
+
+"dureisseix":
+  - firstname: ["David", "D."]
+    url: https://lamcos.insa-lyon.fr/fiche_personnelle.php?p=23_9&L=1&Numpers=870

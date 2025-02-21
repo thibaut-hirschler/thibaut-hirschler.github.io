@@ -1,25 +1,40 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assitant Professor, Mechanical Engineering, France.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profilpic-thirschler.png
+  image_circular: false
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+latest_posts: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Some info about me:**
+* I teach in the Mechanical Engineering department of <a href='https://www.utbm.fr/'>Université de Technologie de Belfort-Montbéliard</a>, a french technical university located in the North-East of France. 
+* I do my research in the <a href='https://icb.u-bourgogne.fr/en/home-page/homepage/'>Laboratoire Interdisciplinaire Carnot de Bourgogne</a>, a CNRS Mixed Research Unit. I am part of a research team doing mechanics with a focus on mechanical design.
+* My scientific activities are devoted to the construction of efficient numerical methods and models for designing innovative structures. 
+  I do (*simple*) math and I code (*when possible*). I still think about the physics time to time 😉.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This webpage gathers the main contents related to my research and eventually my teaching. I maintain this page mainly for me, but you might find interesting stuff here and there. 
+
+### Contact
+
+| ------------------------------------------------------ | ------- |
+| <i class="fa-regular fa-paper-plane"></i> **Email**    | [**thibaut.hirschler@utbm.fr**](mailto:thibaut.hirschler@utbm.fr) |
+| <i class="fa-solid fa-envelope-open-text"></i> **Adress** | UTBM, Site de Sévenans      |
+|          | Thibaut Hirschler, ICB-CO2M |
+|          | Rue de Leupe, FR-90400 Sévenans, France |
+| <i class="fa-regular fa-circle-user"></i> **Social** | [ResearchGate](https://www.researchgate.net/profile/Thibaut-Hirschler), [LinkedIn](https://www.linkedin.com/in/thirschler/), [Google Scholar](https://scholar.google.fr/citations?user=cHqQRSIAAAAJ&hl=en). |
+
+<p></p>
