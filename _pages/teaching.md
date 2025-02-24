@@ -1,12 +1,30 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 6
+title: Teaching
+# description: 
+nav: True
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I teach in the **mechanical enginnering** department at [Université de Technologie de Belfort-Montbéliard](https://www.utbm.fr/) since 2023. 
 
-Organize your courses by years, topics, or universities, however you like!
+
+
+## Strength of materials and vibration
+
+I am in charge of a course on **structural mechanics**. The students learn:
+* Important principles in mechanics: elasticity and superposition principle, partial derivatives of mechanical energies, equilibrium equations, etc.
+* How standard material behave: strain/stress relations, pasticity, failure.
+* What happend in the case of dynamic loadings: vibration modes, resonance, dynamic amplification.
+* How to model and predict the mechanical responses of beam-like structures in both static and vibration regimes.
+
+
+
+## Numerical methods: the bases
+
+
+## Computational mechanics
+
+## Design method for additive manufacturing
+
