@@ -3,28 +3,31 @@
 
 @string{aps = {American Physical Society,}}
 
-@unpublished{guillet:hal-04757522,
+@article{guilletMultilevelMatrixfreeMethod2025,
   title = {Multilevel Matrix-Free Method for High-Performance Isogeometric Analysis of Lattice Structures},
   author = {Guillet, C. and Hirschler, T. and Jolivet, P. and Bouclier, R.},
-  year = {2024},
-  month = oct,
-  hal_id = {hal-04757522},
-  hal_local_reference = {MS2M},
-  hal_version = {v1},
-  keywords = {domain decomposition methods,inexact FETI-DP,isogeometric analysis,lattice structures,multigrid methods},
-  note={Submitted to Journal of Computational Physics},
+  year = {2025},
+  month = sep,
+  journal = {Journal of Computational Physics},
+  volume = {537},
+  pages = {114136},
+  issn = {00219991},
+  doi = {10.1016/j.jcp.2025.114136},
   abstract = {
   This paper presents a novel high-performance solver for the isogeometric analysis of lattice structures, designed to jointly exploit distributed-memory computing architectures and the specific nature of the problem. This work breaks with conventional approaches that primarily focus on multiscale homogenization or structural elements like beams and shells. Instead, it introduces a solver capable of meeting the overwhelming computational demands of full high-fidelity, fine-scale simulations of lattice structures. The solver features a two-level geometric preconditioner with a fine-level smoother based on overlapping domain decomposition, and a coarse-level correction utilizing an algebraic multigrid method. By leveraging the multiscale nature of the lattice structures, a matrix-free approach is employed at the fine level to perform matrix-vector products and apply transfer operators based on spline $k$-refinement. The structural similarities of the cells are also exploited through a reduced-order modeling procedure applied within each subdomain, which is used to efficiently compute the corresponding local solves within the fine-level smoother.
   A series of numerical experiments in both 2D and 3D, spanning various micro- and macro-geometries, are conducted to evaluate the efficiency of the solver in terms of memory usage, computational time, and robustness with respect to mesh refinement, spline degree, and problem size. Notably, an industrially representative spiral channel regenerative cooling thrust chamber lattice structure, consisting of over 66000 cells, is simulated in minutes using thousands of processes.},
-  pdf={https://hal.science/hal-04757522v1/document},
-  abbr={Preprint}
+  pdf={https://hal.science/hal-04757522v2/document},
+  abbr={JCP},
+  html={https://doi.org/10.1016/j.jcp.2025.114136},
+  bibtex_show={true},
 }
 
 @article{cadartOptimalPenaltyMethod2024,
   title = {An Optimal Penalty Method for the Joint Stiffening in Beam Models of Additively Manufactured Lattice Structures},
-  author = {Cadart, T. and Hirschler, T. and Bahi, S. and Roth, S. and Demoly, F. and Lebaal, N.},
-  year = {2024},
+  author = {Cadart, T. and Hirschler, T. and Bahi, S. and Roth, S. and Demoly, F. and Lebaal, N.},year = {2025},
+  month = jan,
   journal = {International Journal of Solids and Structures},
+  volume = {306},
   pages = {113107},
   issn = {00207683},
   doi = {10.1016/j.ijsolstr.2024.113107},
@@ -33,7 +36,8 @@
   html={https://doi.org/10.1016/j.ijsolstr.2024.113107},
   code={https://github.com/Tcadart/Code_Beam_Penalization_methodology},
   pdf={https://hal.science/hal-04771822v1/document},
-  abbr={IJSolStr}
+  abbr={IJSolStr},
+  bibtex_show={true},
 }
 
 @article{hirschlerReducedOrderModeling2024,
@@ -54,7 +58,6 @@
   google_scholar_id={roLk4NBRz8UC},
   abbr={IJNME},
 }
-google_scholar_id={roLk4NBRz8UC}
 
 @article{antolinQuadraturefreeImmersedIsogeometric2022,
   title = {Quadrature-Free Immersed Isogeometric Analysis},
