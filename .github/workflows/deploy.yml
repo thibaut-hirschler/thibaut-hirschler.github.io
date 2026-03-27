@@ -21,7 +21,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * 1"   # Every Monday at 03:00 UTC → auto update citations
+    - cron: "0 3 * * 1" # Every Monday at 03:00 UTC → auto update citations
 
 permissions:
   contents: write
