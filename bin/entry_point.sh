@@ -1,34 +1,21 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-CONFIG_FILE=_config.yml
+set -euo pipefail
 
-# Function to manage Gemfile.lock
-manage_gemfile_lock() {
-    git config --global --add safe.directory '*'
-    if command -v git &> /dev/null && [ -f Gemfile.lock ]; then
-        if git ls-files --error-unmatch Gemfile.lock &> /dev/null; then
-            echo "Gemfile.lock is tracked by git, keeping it intact"
-            git restore Gemfile.lock 2>/dev/null || true
-        else
-            echo "Gemfile.lock is not tracked by git, removing it"
-            rm Gemfile.lock
-        fi
-    fi
+JEKYLL_CMD="jekyll serve --port=8080 --host=0.0.0.0 --livereload --trace"
+JEKYLL_MATCH="jekyll serve .*--port=8080"
+
+is_jekyll_running() {
+    pgrep -f "$JEKYLL_MATCH" >/dev/null 2>&1
 }
 
-start_jekyll() {
-    manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
-}
+echo "[devcontainer] Preparing Ruby gems..."
+bundle check >/dev/null 2>&1 || bundle install
 
-start_jekyll
+if is_jekyll_running; then
+    echo "[devcontainer] Jekyll already running on port 8080. Skipping duplicate start."
+    exit 0
+fi
 
-while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
-        echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
-        start_jekyll
-    fi
-done
+echo "[devcontainer] Starting Jekyll dev server..."
+exec bundle exec $JEKYLL_CMD
