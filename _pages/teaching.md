@@ -20,7 +20,7 @@ I am in charge of a course on **structural mechanics**. The students learn:
 
 I compile some of the exercices in the following repository:
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=thibaut-hirschler&repo=UTBM-MQ44-TD)](https://github.com/thibaut-hirschler/UTBM-MQ44-TD)
+[![Repository Card](https://gh-card.dev/repos/thibaut-hirschler/UTBM-MQ44-TD.svg)](https://github.com/thibaut-hirschler/UTBM-MQ44-TD)
 
 ## Numerical methods: the bases
 
@@ -50,7 +50,7 @@ I sometimes take part in a course devoted to **3D printing** where the students 
 - Homogenization (numerical) and multiscale approaches to simulate lattice structures.
 
 A related repository which contains a jupyter notebook that enables to plot directional Young's modulus can be found here:
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=thibaut-hirschler&repo=explore-anisotropicmat)](https://github.com/thibaut-hirschler/explore-anisotropicmat)
+[![Repository Card](https://gh-card.dev/repos/thibaut-hirschler/explore-anisotropicmat.svg)](https://github.com/thibaut-hirschler/explore-anisotropicmat)
 
 ## Others and pasts
 
