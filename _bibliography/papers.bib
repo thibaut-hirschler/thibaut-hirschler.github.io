@@ -3,6 +3,24 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{guilletEfficientFinescaleSimulation2026,
+  title = {Efficient Fine-Scale Simulation of Nonlinear Hyperelastic Lattice Structures},
+  author = {Guillet, C. and Hirschler, T. and Jolivet, P. and Antolin, P. and Bouclier, R.},
+  year = 2026,
+  month = nov,
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume = {461},
+  pages = {119202},
+  issn = {00457825},
+  doi = {10.1016/j.cma.2026.119202},
+  abstract = {With the growing maturity of additive manufacturing, the fabrication of architected or latticebased metamaterials has become a reality for industrial applications. These materials combine lightweight design with tailored mechanical properties, most of which exhibit pronounced nonlinear, especially large-deformation, behaviors. The main numerical challenge therefore lies in performing nonlinear simulations of such lattice structures, which may contain thousands of geometrically intricate unit cells, while lacking sufficient scale separation for multiscale homogenization schemes to be applicable straightforwardly. In this work, we propose a dedicated solver for the full volumetric fine-scale simulation of nonlinear hyperelastic lattice structures that drastically reduces both memory and computational costs. The key idea is to exploit the intrinsic self-similarity of the cells through a reduced-order modeling strategy applied within a domain-decomposition framework. At each Newton iteration, a limited set of principal cells is identified through a dedicated, weakly intrusive, discrete empirical interpolation method, allowing all local tangent operators to be expressed as linear combinations of a few principal ones. This enables fast and memory-efficient operator assembly, and then feeds an efficient dual--primal finite-element tearing and interconnecting preconditioner at the solution stage, resulting in a quasi matrix-free algorithm for the nonlinear analysis. Numerical experiments in two and three dimensions demonstrate significant computational gains, with runtime reductions from several hours to a few tens of minutes and memory savings by factors of about three, while maintaining full fine-scale accuracy. Notably, the proposed strategy enables the computation of problems involving thousands of cells (i.e., millions of degrees of freedom) within a few minutes on an off-the-shelf laptop.},
+  abbr={CMAME},
+  html={https://doi.org/10.1016/j.cma.2026.119202},
+  pdf={https://hal.science/hal-05547894v1/document},
+  bibtex_show={true},
+}
+
+
 @article{turlinLargescaleComputationalDesign2026,
   title = {Large-Scale Computational Design and Simulation of Viscoelastic Metastructures for Vibration Attenuation},
   author = {Turlin, R. and Hirschler, T. and Calais, T. and Seriket, H. and Chevallier, G. and Bodaghi, M. and Demoly, F.},
