@@ -3,6 +3,37 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{pareja-corchoDesignAnalysisSmoothInpress,
+  title = {Design and Analysis of Smooth Geometry-Conforming Lattices via {{Generalized B\'ezier}} Patches},
+  author = {{Pareja-Corcho}, J. C. and Hirschler, T. and Bouclier, R. and Elber, G. and Barto{\v n}, M.},
+  year = {In press},
+  journal = {Computer Graphics Forum},
+  series = {Symposium on {{Geometry Processing}} 2026},
+  doi = {10.1111/cgf.70490},
+  abstract = {We propose a novel methodology to model globally G1 geometry-conforming metamaterials using Generalized B\'ezier-based (GB) patches. Since every canonical tile is inscribed in a unit cube, we exploit its natural decomposition in octants and design multi-sided patches for each octant. The orthogonality constraints in each octant's GB surface ensure global G1 continuity in the entire parametric domain and, under the assumption of a global smooth mapping that fills a desired free-form volume by deformed cubes, results in globally G1 metamaterial in physical space. The presented tiles can be graded in both shape and thickness using only a few shape parameters preserving their continuity properties, thus enabling optimization of novel metamaterials in various applications. Using isogeometric analysis tools we show that a G1 metamaterial results in a smoother stress field than a typical G0 tile used in state-of-the-art parametric approaches. We further show that our tile, given the continuity constraints, is lighter in terms of necessary control points than state-of-the-art parametric tiles and can approximate popular implicit tiles with sufficient accuracy. Finally, our pipeline is demonstrated in several design/analysis examples.},
+  pdf={https://hal.science/hal-05604547v1/document},
+  abbr={SGP26},
+  video={https://youtu.be/DOxBLHRERnw?si=pKq_6ANypGro3C1o}
+}
+
+@article{liFixedsmoothingscaleSPHHighvelocity2026,
+  title = {Fixed-Smoothing-Scale {{SPH}} for High-Velocity Impact: {{Kernel}} Function, Particle Layout, and the Accuracy--Cost Trade-Off},
+  shorttitle = {Fixed-Smoothing-Scale {{SPH}} for High-Velocity Impact},
+  author = {Li, Hongchuan and Hirschler, Thibaut and Roth, Sebastien},
+  year = 2026,
+  month = jun,
+  journal = {Computational Particle Mechanics},
+  volume = {15},
+  pages = {299--319},
+  issn = {21964386},
+  doi = {10.1016/j.cpms.2026.04.006},
+  abstract = {A variance-based fixed-smoothing-scale SPH protocol with ℎ = 2{$\sigma$} and kernel-dependent support {$H$} = {$K$}ℎ is implemented in OpenRadioss to decouple kernel/layout effects from resolution. Four kernels (CS, W2, W4, W6) and two ordered layouts (SC, FCC) are compared at equal per-particle volume/mass on two benchmarks: Taylor impact in 4340 steel with pure SPH and spherical projectile perforation of an AA2024-T3 plate with FE--SPH coupling. The investigated smoothing-scale/particle spacing ratios are in range ℎ/{$d$} = 1.10--2.74. Accuracy is assessed using residual bar length and cap diameter and residual projectile velocity, together with wallclock runtime. For Taylor impact, errors are typically minimized at intermediate smoothing scale, where the numerical results are close to reference experimental data (between 1\% and 10\% depending on the quantity of interest); the smallest ℎ can exhibit free-surface neighbor deficiency and tensile-instability-driven particle ejection, while the largest ℎ over-smooths cap geometry. Errors generally decrease with kernel smoothness, and FCC often outperforms SC at fixed ℎ. For plate impact, residual velocity is governed primarily by parameter ℎ, with larger ℎ yielding smoother deceleration, lower plateau velocities, and reduced kernel sensitivity. Runtime is jointly affected by the choice of kernel and smoothing scale ℎ. The fixed-ℎ protocol establishes a common-resolution framework for cross-kernel comparison andprovides a transferable baseline for balancing accuracy, stability, and cost in explicit SPH impact simulations.},
+  abbr={CPMS},
+  html={https://doi.org/10.1016/j.cpms.2026.04.006},
+  bibtex_show={true},
+}
+
+
 @article{guilletEfficientFinescaleSimulation2026,
   title = {Efficient Fine-Scale Simulation of Nonlinear Hyperelastic Lattice Structures},
   author = {Guillet, C. and Hirschler, T. and Jolivet, P. and Antolin, P. and Bouclier, R.},

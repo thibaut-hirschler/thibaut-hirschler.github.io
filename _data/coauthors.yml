@@ -45,3 +45,11 @@
 "guillet":
   - firstname: ["Clément", "C."]
     url: https://sites.google.com/view/clement-guillet/home
+
+"elber":
+  - firstname: ["Gershon", "G."]
+    url: https://gershon.cs.technion.ac.il/
+
+"barton":
+  - firstname: ["Michael", "M."]
+    url: https://www.bcamath.org/en/people/bcam-members/mbarton
